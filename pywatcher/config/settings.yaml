@@ -1,0 +1,27 @@
+default:
+  path: "C:\\Users\\Sofiane\\Documents\\ComparaisonTest\\Local"
+  patterns: ["*.pdf"]
+  ignore_patterns: null
+  ignore_directories: True
+  case_sensitive: True
+  max_backups: 20
+  spreadsheet_url: "https://docs.google.com/spreadsheets/d/1yIKXg9scKjP2VR89nAsMChWLtSXQBiCOmL0LZ_UC24Q/edit"
+  spreadsheet_name: "data"
+  drive_folder_id: "1UwlzzWoFXX7Xsz_VT52fuwewk7_OoZaH"
+
+months:
+  {
+    "janvier": "01",
+    "fevrier": "02",
+    "mars": "03",
+    "avril": "04",
+    "mai": "05",
+    "juin": "06",
+    "juillet": "07",
+    "aout": "08",
+    "septembre": "09",
+    "octobre": "10",
+    "novembre": "11",
+    "decembre": "12",
+  }
+types: { "fournisseurs": "FRS", "sous-traitants": "SST" }
